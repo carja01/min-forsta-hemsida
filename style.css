@@ -25,8 +25,11 @@ h1:hover{
 }
 
 p{
+    display: flex;
+    justify-content: center;
+  align-items: center;
     font-size: 25px;
-    margin-left:20cm;
+  
  color:green;
 }
 p:hover{
@@ -34,11 +37,30 @@ p:hover{
 }
 
 .cat{
-margin-left: 725px;
-margin-top: 3.5%;
-
+    display: flex;
+    margin-left: 15%;
 border-radius: 10cm;
-border-color:black;
+border-color:green; 
 border-style:groove;
 }
 
+.cat:hover{
+    border-color:rgb(255, 0, 0);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    color:green;
+    
+}
+
+header:hover{
+    color:rgb(255, 0, 0)
+}
+.container>div{
+
+    margin: 5%;
+}
