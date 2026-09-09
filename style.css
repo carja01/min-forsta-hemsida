@@ -1,0 +1,44 @@
+
+*{
+  transition: 20ms;
+  box-shadow: none;
+  background-color: #00ff9d;
+}
+
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1{
+    font-size: 100px;
+color: Green;
+margin-left: 400px;
+}
+
+h1:hover{
+    color:rgb(255, 0, 0)
+}
+
+p{
+    font-size: 25px;
+    margin-left:20cm;
+ color:green;
+}
+p:hover{
+    color:rgb(255, 0, 0)
+}
+
+.cat{
+margin-left: 725px;
+margin-top: 3.5%;
+
+border-radius: 10cm;
+border-color:black;
+border-style:groove;
+}
+
