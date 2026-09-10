@@ -2,7 +2,7 @@
 *{
   transition: 20ms;
   box-shadow: none;
-  background-color: #00ff9d;
+  background-color: #83f8c2;
 }
 
 
@@ -15,9 +15,9 @@
 
 
 h1{
-    font-size: 100px;
+    font-size: 75px;
 color: Green;
-margin-left: 400px;
+
 }
 
 h1:hover{
@@ -49,6 +49,7 @@ border-style:groove;
 }
 
 header{
+    display:block;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,10 +58,26 @@ header{
     
 }
 
-header:hover{
-    color:rgb(255, 0, 0)
-}
+
 .container>div{
 
     margin: 5%;
+}
+
+.info{
+    display:flex;
+    background-color:green;
+}
+
+.info a{
+    background-color:green;
+    color:#83f8c2;
+    display:block;
+    padding: 20px;
+    text-decoration:none;
+    
+}
+
+.info a:hover{
+    color:rgb(255, 0, 0)
 }
